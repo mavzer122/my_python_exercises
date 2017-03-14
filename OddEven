@@ -6,3 +6,4 @@ elif int(number1) % 4 == 0:
 	print number1 + " is divisible by 4, therefore is an even number."
 else:
 	print number1 + " is an even number."
+
