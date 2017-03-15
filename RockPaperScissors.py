@@ -32,6 +32,7 @@ def rock_paper_scissors():
 			print "The computer chose " + computer_choice
 		else:
 			print "Please enter 'Rock', 'Paper' or 'Scissors'"
+			plays -= 1
 
 rock_paper_scissors()
 while True:
