@@ -1,5 +1,8 @@
-a = [1, 2, 4, 5, 20, 21, 22, 23, 24, 25, 100, 120]
+from random import randint
+a = []
 b = []
+for random_integer in range(20):
+	a.append(randint(0, 999)
 user_input = raw_input('Please enter a number. > ')
 for item in a:
 	if item <= int(user_input):
